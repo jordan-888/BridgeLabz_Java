@@ -1,0 +1,219 @@
+// 1. File: Chocolates.java
+import java.util.Scanner;
+
+public class Chocolates {
+    public static int[] findRemainderAndQuotient(int number, int divisor){
+        int remainder = number % divisor;
+        int quotient = number / divisor;
+        return new int[] {remainder, quotient};
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of chocolates and students: ");
+        int number = sc.nextInt();
+        int divisor = sc.nextInt();
+        int[] res = Chocolates.findRemainderAndQuotient(number, divisor);
+        System.out.printf("The number of chocolates each child gets is %d and the number of chocolates remaining is %d%n", res[1], res[0]);
+        sc.close();
+    }
+}
+
+// 2. File: Division.java
+import java.util.Scanner;
+
+public class Division {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter 2 numbers: ");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        System.out.println("The quotient is " + num1/num2 + " and the remainder is " + num1%num2 + " of 2 numbers " + num1 + " and " + num2);
+        input.close();
+    }
+}
+
+// 3. File: DoubleOperations.java
+import java.util.Scanner;
+
+public class DoubleOperations {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter 3 numbers: ");
+        double a = input.nextInt();
+        double b = input.nextInt();
+        double c = input.nextInt();
+        double op1 = a + b * c;
+        double op2 = a * b + c;
+        double op3 = c + (double) a / b;
+        double op4 = a % b + c;
+        System.out.printf("The results of Int Operations are %.2f, %.2f, %.2f and %.2f%n", op1, op2, op3, op4);
+        input.close();
+    }
+}
+
+// 4. File: IntOperations.java
+import java.util.Scanner;
+
+public class IntOperations {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter 3 numbers: ");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
+        double op1 = a + b * c;
+        double op2 = a * b + c;
+        double op3 = c + a / b;
+        double op4 = a % b + c;
+        System.out.printf("The results of Int Operations are %.2f, %.2f, %.2f and %.2f%n", op1, op2, op3, op4);
+        input.close();
+    }
+}
+
+// 5. File: PoundsToKg.java
+import java.util.Scanner;
+
+public class PoundsToKg {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter weight in pounds: ");
+        double pounds = input.nextDouble();
+        double kg = pounds / 2.2;
+        System.out.printf("The weight in pounds is %.2f and in kilograms is %.2f kg%n", pounds, kg);
+        input.close();
+    }
+}
+
+// 6. File: SimpleInterest.java
+import java.util.Scanner;
+
+public class SimpleInterest {
+    public int calculateSI(int p, int r, int t){
+        return (p * r * t) / 100;
+    }
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Principal, Rate and Time: ");
+        int p = sc.nextInt();
+        int r = sc.nextInt();
+        int t = sc.nextInt();
+
+        SimpleInterest obj = new SimpleInterest();
+        int si = obj.calculateSI(p, r, t);
+        System.out.println("Simple Interest is " + si + " for Principal " + p + ", Rate " + r + "% and Time " + t);
+        sc.close();
+    }
+}
+
+// 7. File: SwapNumbers.java
+import java.util.Scanner;
+
+public class SwapNumbers {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter number 1: ");
+        int num1 = input.nextInt();
+        System.out.print("Enter number 2: ");
+        int num2 = input.nextInt();
+        
+        System.out.println("Before Swapping: num1 = " + num1 + ", num2 = " + num2);
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+        System.out.println("After Swapping: num1 = " + num1 + ", num2 = " + num2);
+        input.close();
+    }
+}
+
+// 8. File: TemperatureConversion.java
+import java.util.Scanner;
+
+public class TemperatureConversion {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter temperature in Fahrenheit: ");
+        double fahrenheit = input.nextDouble();
+        double celsiusResult = (fahrenheit - 32) * 5/9;
+        System.out.printf("The %.2f Fahrenheit in Celsius is %.2f%n", fahrenheit, celsiusResult);
+        input.close();
+    }
+}
+
+// 9. File: TemperatureConverter.java
+import java.util.Scanner;
+
+public class TemperatureConverter {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter temperature in Celsius: ");
+        double celsius = input.nextDouble();
+        double fahrenheitResult = (celsius * 9/5) + 32;
+        System.out.printf("The %.2f Celsius in Fahrenheit is %.2f%n", celsius, fahrenheitResult);
+        input.close();
+    }
+}
+
+// 10. File: TotalSalary.java
+import java.util.Scanner;
+
+public class TotalSalary {
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter basic salary and bonus:");
+        double salary = input.nextDouble();
+        double bonus = input.nextDouble();
+        double totSal = salary + bonus;
+        System.out.printf("The salary is INR %.2f and bonus is INR %.2f. Hence Total Salary is %.2f%n", salary, bonus, totSal);
+        input.close();
+    }
+}
+
+// 11. File: TravelComputation.java
+import java.util.Scanner;
+
+public class TravelComputation{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+        System.out.print("Enter from City, via City and to City: ");
+        String fromCity = input.nextLine();
+        String viaCity = input.nextLine();
+        String toCity = input.nextLine();
+
+        System.out.print("Enter distance between from City to via City and via City to final City (in miles): ");
+        double distanceFromToVia = input.nextDouble();
+        double distanceViaToFinal = input.nextDouble();
+
+        System.out.print("Enter time taken between from City to via City and via City to final City (in hours): ");
+        double timeFromToVia = input.nextDouble() * 60;
+        double timeViaToFinal = input.nextDouble() * 60;
+
+        double totalDistance = distanceFromToVia + distanceViaToFinal;
+        double totalTime = timeFromToVia + timeViaToFinal;
+
+        System.out.printf("The total distance travelled by %s from %s to %s via %s is %.2f miles and the total time taken is %.2f minutes.%n", name, fromCity, toCity, viaCity, totalDistance, totalTime);
+        input.close();
+    }
+}
+
+// 12. File: Triangle.java
+import java.util.Scanner;
+
+public class Triangle {
+    public double laps(double a, double b, double c){
+        return 5/(a+b+c);
+    }
+
+    public static void main(String args[]){
+        Triangle obj = new Triangle();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the lenghts of the three sides of the triangle: ");
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+        System.out.printf("The total number of rounds the athlete will run is %.2f to complete 5km%n", obj.laps(a, b, c));
+        sc.close();
+    }
+}
