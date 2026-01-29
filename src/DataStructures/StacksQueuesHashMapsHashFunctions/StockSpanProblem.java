@@ -1,5 +1,4 @@
-package DataStructures.StacksQueuesHashMapsHashFunctions;
-
+package DataStructures.stacksqueueshashmapshashfunctions;
 import java.util.Stack;
 import java.util.Arrays;
 

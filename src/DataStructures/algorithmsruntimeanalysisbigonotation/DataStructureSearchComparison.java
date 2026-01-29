@@ -1,5 +1,4 @@
-package DataStructures.AlgorithmsRuntimeAnalysisBigO_Notation;
-
+package DataStructures.algorithmsruntimeanalysisbigonotation;
 import java.util.HashSet;
 import java.util.TreeSet;
 import java.util.Random;

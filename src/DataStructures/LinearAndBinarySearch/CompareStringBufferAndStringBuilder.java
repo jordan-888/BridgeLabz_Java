@@ -1,5 +1,4 @@
-package DataStructures.LinearAndBinarySearch;
-
+package DataStructures.linearandbinarysearch;
 /**
  * StringBuffer Problem 2: Compare StringBuffer with StringBuilder for String
  * Concatenation

@@ -1,5 +1,4 @@
-package DataStructures.StacksQueuesHashMapsHashFunctions;
-
+package DataStructures.stacksqueueshashmapshashfunctions;
 import java.util.LinkedList;
 
 /**

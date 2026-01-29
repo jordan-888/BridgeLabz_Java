@@ -1,5 +1,4 @@
-package DataStructures.LinkedList;
-
+package DataStructures.linkedlist;
 class TaskNode {
     int taskId;
     String taskName;

@@ -1,5 +1,4 @@
-package DataStructures.LinearAndBinarySearch;
-
+package DataStructures.linearandbinarysearch;
 /**
  * StringBuffer Problems
  * Problem 1: Concatenate Strings Efficiently

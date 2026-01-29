@@ -1,5 +1,4 @@
-package DataStructures.AlgorithmsRuntimeAnalysisBigO_Notation;
-
+package DataStructures.algorithmsruntimeanalysisbigonotation;
 /**
  * Problem 5: Recursive vs Iterative Fibonacci Computation
  * 

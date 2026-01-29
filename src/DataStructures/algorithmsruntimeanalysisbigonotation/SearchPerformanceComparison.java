@@ -1,5 +1,4 @@
-package DataStructures.AlgorithmsRuntimeAnalysisBigO_Notation;
-
+package DataStructures.algorithmsruntimeanalysisbigonotation;
 import java.util.Arrays;
 
 /**

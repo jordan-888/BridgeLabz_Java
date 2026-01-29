@@ -1,5 +1,4 @@
-package DataStructures.LinearAndBinarySearch;
-
+package DataStructures.linearandbinarysearch;
 import java.io.*;
 import java.util.Arrays;
 

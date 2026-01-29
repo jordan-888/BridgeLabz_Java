@@ -1,5 +1,4 @@
-package DataStructures.AlgorithmsRuntimeAnalysisBigO_Notation;
-
+package DataStructures.algorithmsruntimeanalysisbigonotation;
 /**
  * Problem 3: String Concatenation Performance
  * 
